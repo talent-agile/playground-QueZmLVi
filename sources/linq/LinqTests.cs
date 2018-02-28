@@ -20,7 +20,7 @@ namespace Linq
         public void CheckTotalOrderSum()
         {
             var actual = TotalOrderSum.CalculateTotalOrderSum(_data);
-            Check.That(actual).IsEqualTo(349823300);
+            Check.That(actual).IsEqualTo(349823300M);
         }
     }
 }
