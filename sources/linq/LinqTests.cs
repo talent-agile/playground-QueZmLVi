@@ -62,5 +62,12 @@ namespace Linq
             Check.That(actual.Id).IsEqualTo(428);
             Check.That(actual.Region).IsEqualTo("FR");
         }
+
+        [TestMethod]
+        public void CheckRegionWithMostIncome()
+        {
+            var actual = RegionWithMostIncome.GetRegionWithMostIncome(_data);
+            Check.That(actual).IsEqualTo("FR");
+        }
     }
 }

@@ -43,3 +43,9 @@ __Objective__: Find the most sold product
 __Objective__: Find the account having generated the most income
 
 @[Account with highest generated income]({"stubs": ["Exercises/AccountWithMostIncome.cs"], "command": "Linq.LinqTests.CheckAccountWithMostIncome"})
+
+## Region with most income
+
+__Objective__: Find the region having generated the most income
+
+@[Region with highest generated income]({"stubs": ["Exercises/RegionWithMostIncome.cs"], "command": "Linq.LinqTests.CheckRegionWithMostIncome"})
