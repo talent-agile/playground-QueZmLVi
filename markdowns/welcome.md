@@ -36,4 +36,10 @@ __Objective__: Find the three monthes with the lowest income, ordered from lowes
 
 __Objective__: Find the most sold product
 
-@[Monst sold product]({"stubs": ["Exercises/MostSoldProduct.cs"], "command": "Linq.LinqTests.CheckMostSoldProduct"})
+@[Most sold product]({"stubs": ["Exercises/MostSoldProduct.cs"], "command": "Linq.LinqTests.CheckMostSoldProduct"})
+
+## Account with most income
+
+__Objective__: Find the account having generated the most income
+
+@[Account with highest generated income]({"stubs": ["Exercises/AccountWithMostIncome.cs"], "command": "Linq.LinqTests.CheckAccountWithMostIncome"})

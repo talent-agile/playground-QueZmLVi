@@ -54,5 +54,13 @@ namespace Linq
             var actual = MostSoldProduct.GetMostSoldProduct(_data);
             Check.That(actual.Name).IsEqualTo("Surface Book");
         }
+
+        [TestMethod]
+        public void CheckAccountWithMostIncome()
+        {
+            var actual = AccountWithMostIncome.GetAccountWithMostIncome(_data);
+            Check.That(actual.Id).IsEqualTo(428);
+            Check.That(actual.Region).IsEqualTo("FR");
+        }
     }
 }
