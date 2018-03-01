@@ -83,5 +83,12 @@ namespace Linq
             var actual = NumberOfOrdersWithPhoneAndTablet.GetNumberOfOrdersWithPhoneAndTablet(_data);
             Check.That(actual).IsEqualTo(27439);
         }
+
+        [TestMethod]
+        public void CheckBestProductSoldWithIPhone7()
+        {
+            var actual = BestProductSoldWithIPhone7.GetBestProductSoldWithIPhone7(_data);
+            Check.That(actual.Name).IsEqualTo("Galaxy s8+");
+        }
     }
 }

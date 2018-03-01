@@ -61,3 +61,9 @@ __Objective__: Find the number of clients having ordered in August 2015, from FR
 __Objective__: Find the number of orders having a phone and a tablet
 
 @[Number of orders with a phone and a tablet]({"stubs": ["Exercises/NumberOfOrdersWithPhoneAndTablet.cs"], "command": "Linq.LinqTests.CheckNumberOfOrdersWithPhoneAndTablet"})
+
+## Best product sold with an iPhone 7
+
+__Objective__: Find the best product sold with an iPhone 7
+
+@[Best product sold with an iPhone 7]({"stubs": ["Exercises/BestProductSoldWithIPhone7.cs"], "command": "Linq.LinqTests.CheckBestProductSoldWithIPhone7"})
