@@ -25,3 +25,9 @@ Objective: Find the month with the highest income.
 * Try to group orders by their order date with the ``Order.Date`` property
 
 @[Month with highest income]({"stubs": ["Exercises/MonthWithHighestIncome.cs"], "command": "Linq.LinqTests.CheckMonthWithHighestIncome"})
+
+## Three monthes with lowest income
+
+Objective: Find the three monthes with the lowest income, ordered from lowest to highest
+
+@[Monthes with lowest income]({"stubs": ["Exercises/MonthesWithLowestIncome.cs"], "command": "Linq.LinqTests.CheckMonthesWithLowestIncome"})

@@ -36,5 +36,16 @@ namespace Linq
             var actual = MonthWithHighestIncome.GetMonthWithHighestIncome(_data);
             Check.That(actual).IsEqualTo(new Date(2015, 7));
         }
+
+        [TestMethod]
+        public void CheckMonthesWithLowestIncome()
+        {
+            var actual = MonthesWithLowestIncome.GetThreeMonthesWithLowestIncome(_data);
+            Check.That(actual).CountIs(3);
+            Check.That(actual).ContainsExactly(
+                new Date(2016, 6), 
+                new Date(2016, 2),
+                new Date(2016, 3));
+        }
     }
 }
