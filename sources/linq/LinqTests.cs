@@ -69,5 +69,12 @@ namespace Linq
             var actual = RegionWithMostIncome.GetRegionWithMostIncome(_data);
             Check.That(actual).IsEqualTo("FR");
         }
+
+        [TestMethod]
+        public void CheckNumberOfClientInAugust2015FromFrRegion()
+        {
+            var actual = NumberOfClientInAugust2015FromFrRegion.GetNumberOfClientInAugust2015FromFrRegion(_data);
+            Check.That(actual).IsEqualTo(92);
+        }
     }
 }
