@@ -47,5 +47,12 @@ namespace Linq
                 new Date(2016, 2),
                 new Date(2016, 3));
         }
+
+        [TestMethod]
+        public void CheckMostSoldProduct()
+        {
+            var actual = MostSoldProduct.GetMostSoldProduct(_data);
+            Check.That(actual.Name).IsEqualTo("Surface Book");
+        }
     }
 }

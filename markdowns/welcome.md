@@ -4,7 +4,7 @@ Complete the following Linq Exercises
 
 ## Total Order Price
 
-The goal of this exercise is to calculate the total profit from all orders.
+__Objective__: Calculate the total profit from all orders.
 
 You can use the ``Order.Price`` property to get the total price for a single order.
 
@@ -12,13 +12,13 @@ You can use the ``Order.Price`` property to get the total price for a single ord
 
 ## Number of orders in April 2016
 
-Objective: Find the number of orders made in April 2016.
+__Objective__: Find the number of orders made in April 2016.
 
 @[Numbers of orders in April 2016]({"stubs": ["Exercises/NumberOfOrdersInApril2016.cs"], "command": "Linq.LinqTests.CheckNumberOfOrdersInApril2016"})
 
 ## Month with highest income
 
-Objective: Find the month with the highest income.
+__Objective__: Find the month with the highest income.
 
 ### Tips
 
@@ -28,6 +28,12 @@ Objective: Find the month with the highest income.
 
 ## Three monthes with lowest income
 
-Objective: Find the three monthes with the lowest income, ordered from lowest to highest
+__Objective__: Find the three monthes with the lowest income, ordered from lowest to highest
 
 @[Monthes with lowest income]({"stubs": ["Exercises/MonthesWithLowestIncome.cs"], "command": "Linq.LinqTests.CheckMonthesWithLowestIncome"})
+
+## Most sold product
+
+__Objective__: Find the most sold product
+
+@[Monst sold product]({"stubs": ["Exercises/MostSoldProduct.cs"], "command": "Linq.LinqTests.CheckMostSoldProduct"})
