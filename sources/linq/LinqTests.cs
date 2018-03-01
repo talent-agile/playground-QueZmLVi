@@ -22,5 +22,12 @@ namespace Linq
             var actual = TotalOrderSum.CalculateTotalOrderSum(_data);
             Check.That(actual).IsEqualTo(349823300M);
         }
+
+        [TestMethod]
+        public void CheckNumberOfOrdersInApril2016()
+        {
+            var actual = NumberOfOrdersInApril2016.CalculateNumberOfOrdersInApril2016(_data);
+            Check.That(actual).IsEqualTo(4146);
+        }
     }
 }
