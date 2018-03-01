@@ -29,5 +29,12 @@ namespace Linq
             var actual = NumberOfOrdersInApril2016.CalculateNumberOfOrdersInApril2016(_data);
             Check.That(actual).IsEqualTo(4146);
         }
+
+        [TestMethod]
+        public void CheckMonthWithHighestIncome()
+        {
+            var actual = MonthWithHighestIncome.GetMonthWithHighestIncome(_data);
+            Check.That(actual).IsEqualTo(new Date(2015, 7));
+        }
     }
 }
