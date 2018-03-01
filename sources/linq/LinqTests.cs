@@ -76,5 +76,12 @@ namespace Linq
             var actual = NumberOfClientInAugust2015FromFrRegion.GetNumberOfClientInAugust2015FromFrRegion(_data);
             Check.That(actual).IsEqualTo(92);
         }
+
+        [TestMethod]
+        public void CheckNumberOfOrdersWithPhoneAndTablet()
+        {
+            var actual = NumberOfOrdersWithPhoneAndTablet.GetNumberOfOrdersWithPhoneAndTablet(_data);
+            Check.That(actual).IsEqualTo(27439);
+        }
     }
 }

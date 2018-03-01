@@ -54,4 +54,10 @@ __Objective__: Find the region having generated the most income
 
 __Objective__: Find the number of clients having ordered in August 2015, from FR region
 
-@[Region with highest generated income]({"stubs": ["Exercises/NumberOfClientInAugust2015FromFrRegion.cs"], "command": "Linq.LinqTests.CheckNumberOfClientInAugust2015FromFrRegion"})
+@[Number of client in August 2015 from FR region]({"stubs": ["Exercises/NumberOfClientInAugust2015FromFrRegion.cs"], "command": "Linq.LinqTests.CheckNumberOfClientInAugust2015FromFrRegion"})
+
+## Number of orders with a phone and a tablet
+
+__Objective__: Find the number of orders having a phone and a tablet
+
+@[Number of orders with a phone and a tablet]({"stubs": ["Exercises/NumberOfOrdersWithPhoneAndTablet.cs"], "command": "Linq.LinqTests.CheckNumberOfOrdersWithPhoneAndTablet"})
